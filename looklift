@@ -10,6 +10,23 @@ The face data will be shared with OpenAI for processing. Your uploaded image wil
 ## 3. Data Storage
 Image that you upload is sent to OpenAI for analysis. It will be retained for 30 days and then deleted. We do not store your information.
 
+Reason for storing face data
+
+Our app allows users to upload a photo of their face in order to:
+
+1. Generate appearance improvement suggestions
+2. Create an AI-edited version of the uploaded photo showing suggested enhancements
+
+The image is transmitted securely to OpenAI’s image analysis and generation service solely for processing these features.
+
+We do not store facial data on our servers and do not use facial recognition or identity matching.
+
+Images are temporarily processed by OpenAI and may be retained by OpenAI for up to 30 days for abuse monitoring purposes, after which they are deleted according to OpenAI’s data retention policy.
+
+Users are informed of this processing through an in-app disclosure dialog before analysis begins, and processing only occurs after user consent.
+
+The images are never used for tracking, identification, advertising, or profiling.
+
 ## 4. In-App Purchases
 
 Our App offers auto-renewable subscriptions for premium features:
